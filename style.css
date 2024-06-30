@@ -64,34 +64,26 @@ button {
     width: 110px;
 }
 
-.hero2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 250px;
-    padding-right: 250px;
-    align-items: center;
-}
 .hero2-1{
-    width: 100%;
-    
-    
+    display: flex;
+    justify-content: center;
 }
-.image1, .image2, .image3, .image4{
-    padding: 10px;
-    text-align: center;
-}
-.image1 {order: 1;}
-.image2 {order: 2;}
-.image3 {order: 3;}
-.image4 {order: 4;}
-.ip1 {order: 5;}
-.ip2 {order: 6;}
-.ip3 {order: 7;}
-.ip4 {order: 8;}
 
-.ip1, .ip2, .ip3, .ip4{
-    width: 20%;
-       
-}
+.item{
+    width:200px;
+    text-align:center;
+    display:block;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+  }
+  
+  #gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero3{
+    display: flex;
+  }

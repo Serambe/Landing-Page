@@ -39,7 +39,7 @@ body{
 
 .hero1-1hd{
     font-size: 48px;
-    
+    font-weight: bolder;
 }
 
 .hero1-1sb{
@@ -67,6 +67,9 @@ button {
 .hero2-1{
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .item{
@@ -86,4 +89,29 @@ button {
 
   .hero3{
     display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .item2{
+    width:700px;
+    text-align:start;
+    display:block;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+  }
+  p{
+    margin-bottom: 10px;
+  }
+
+  .quote{
+    text-align: end;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
   }

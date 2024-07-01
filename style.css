@@ -4,17 +4,31 @@ body{
     margin: auto;
   }
   .page-container{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
+  button {
+    background-color: #3882f6;
+    color: white;
+    height: 30px;
+    width: 110px;
+    border-radius: 8px;
+}
 .hero1{
-   /* background-color: #1f2937; */
+   background-color: #1f2937;
+   color: #f9faf8;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 60px;
     padding-right: 20px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 180px;
 }
 .nav{
     margin-left: 2em;
@@ -23,6 +37,7 @@ body{
 
 .hlink1, .hlink2, .hlink3 {
     padding-right: 20px;
+    color: #f9faf8;
 }
 
 .hero1-1{
@@ -32,6 +47,7 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .item1{
     width:600px;
@@ -46,6 +62,7 @@ body{
 
 .hero1-1sb{
     font-size: 18px;
+    color: #e5e7eb;
 
 }
 .hero1-1hd, .hero1-1sb{
@@ -55,6 +72,7 @@ body{
 }
 .hero1-1btn{
     margin-left: 60px;
+    border-color: #1f2937;
 }
 
 
@@ -63,12 +81,7 @@ body{
     
 }
 
-button {
-    background-color: #3882f6;
-    color: white;
-    height: 20px;
-    width: 110px;
-}
+
 
 .hero2-1{
     display: flex;
@@ -91,6 +104,7 @@ button {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
   }
 
   .hero3{
@@ -98,6 +112,7 @@ button {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #e5e7eb;
   }
 
   .item2{
@@ -127,8 +142,8 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     margin-left: 90px;
     margin-right: 90px;
     padding-top: 20px;
@@ -142,10 +157,11 @@ button {
     margin-right: 10px;
     margin-bottom: 0px;
     float:left;
+    color: #f9faf8;
   }
 
   .button2{
-    border: white;
+    border-color: white;
   }
 
   .footer{

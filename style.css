@@ -115,3 +115,37 @@ button {
     font-style: normal;
     font-weight: bolder;
   }
+
+  .cl2action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .item3{
+    width:400px;
+    text-align:left;
+    display:block;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    float:left;
+  }
+
+  .button2{
+    border: white;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1f2937;
+    color: #f9faf8;
+  }
